@@ -17,103 +17,165 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0E1013">
+<script>(function(){var d=document.documentElement;d.classList.add('js');try{if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('anim');}catch(e){}setTimeout(function(){if(!d.classList.contains('anim-ok'))d.classList.remove('anim');},3500);})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=42284252">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Geist:wght@400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=20261106">
+<script src="assets/lenis.min.js?v=1.1.20" defer></script>
+<script src="assets/main.js?v=20261106" defer></script>
+
 </head>
 <body>
-
-<header class="nav">
-  <div class="wrap nav-inner">
-    <a class="brand" href="index.html"><span class="name">TOMILI</span><span class="sub">Zelów</span></a>
-    <nav class="nav-links">
-      <a href="oferta.html">Oferta</a>
-      <a href="realizacje.html" class="active" aria-current="page">Galeria</a>
-      <a href="o-nas.html">O nas</a>
-      <a href="kontakt.html">Kontakt</a>
-      <a href="tel:+48531642254" class="btn btn-accent">Zadzwoń +48 531 642 254</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
-  </div>
+<a class="skip" href="#tresc">Przejdź do treści</a>
+<header class="site-head">
+<div class="head-in">
+  <a class="brand" href="index.html" aria-label="TOMILI - strona główna">
+    <span class="znak"><svg class="wm" viewBox="7 -681 2729 702" role="img" aria-label="TOMILI"><path pathLength="1" style="--i:0" d="M187.7 0V-660H321.7V0ZM14 -544.7V-660H495.3V-544.7Z"/><path pathLength="1" style="--i:1" d="M816.5 14Q745.9 14 690.7 -8.8Q635.5 -31.6 597.5 -75.3Q559.4 -118.9 539.7 -182.4Q520 -245.9 520 -326.7Q520 -443.7 558.1 -520.4Q596.2 -597.2 664.4 -635.5Q732.5 -673.7 821.4 -673.7Q890.1 -673.7 944.6 -651.7Q999.2 -629.7 1037.7 -586.1Q1076.1 -542.6 1096.5 -478Q1116.9 -413.3 1116.9 -329.1Q1116.9 -246.3 1096.4 -182.1Q1076 -117.9 1036.8 -74.4Q997.7 -30.9 942 -8.4Q886.3 14 816.5 14ZM820.3 -98.2Q874.1 -98.2 909.4 -123.9Q944.6 -149.6 961.8 -200.2Q978.9 -250.7 978.9 -325.3Q978.9 -402.9 960.5 -455.3Q942.1 -507.7 906.4 -535Q870.7 -562.3 817.7 -562.3Q766.3 -562.3 730.7 -535.8Q695.1 -509.4 676.9 -457.9Q658.7 -406.3 658.7 -331.3Q658.7 -273.7 668.9 -229.9Q679.1 -186 699.6 -156.7Q720 -127.4 750.1 -112.8Q780.3 -98.2 820.3 -98.2Z"/><path pathLength="1" style="--i:2" d="M1172.8 0V-660H1376.1L1533.7 -154.2H1535.7L1691.2 -660H1884.7V0H1759.5V-525H1757.5L1590.1 0H1465.9L1300 -525.3H1298V0Z"/><path pathLength="1" style="--i:3" d="M1953.8 0V-660H2088.8V0Z"/><path pathLength="1" style="--i:4" d="M2158.8 0V-660H2292.8V0ZM2187.3 0V-115.3H2560.9V0Z"/><path pathLength="1" style="--i:5" d="M2593.8 0V-660H2728.8V0Z"/></svg></span>
+    <span class="brand-sub">Sklep ogrodniczy<br>Zelów</span>
+  </a>
+  <nav class="nav-links" aria-label="Menu główne">
+    <a class="nl" href="oferta.html">Asortyment</a><a class="nl" href="realizacje.html" aria-current="page">Galeria</a><a class="nl" href="o-nas.html">O&nbsp;nas</a><a class="nl" href="kontakt.html">Kontakt</a>
+    <a class="btn btn-copper nav-cta" href="tel:+48531642254"><span class="live" aria-hidden="true"></span>+48 531 642 254</a>
+  </nav>
+  <button class="burger" type="button" aria-label="Otwórz menu" aria-expanded="false" aria-controls="mnav"><span></span><span></span></button>
+</div>
 </header>
-
-<main>
+<div class="mnav" id="mnav">
+  <div class="mnav-in">
+    <a class="ml" href="index.html">Strona główna</a><a class="ml" href="oferta.html">Asortyment</a><a class="ml" href="realizacje.html" aria-current="page">Galeria</a><a class="ml" href="o-nas.html">O&nbsp;nas</a><a class="ml" href="kontakt.html">Kontakt</a>
+    <div class="mnav-foot">
+      <span>Poniedziałek - piątek 9:00-17:00, sobota 9:00-13:00</span>
+      <a class="btn btn-copper" href="tel:+48531642254"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg>+48 531 642 254</a>
+    </div>
+  </div>
+</div>
+<main id="tresc">
 <section class="pagehead">
-  <img src="img/g10.jpg" alt="TOMILI - Nasze prace" width="1600" height="1066" decoding="async">
-  <div class="wrap">
-    <span class="eyebrow">Galeria</span>
-    <h1>Nasze prace</h1>
-    <p>Rośliny, narzędzia i sprzęt, czyli to, po co się do nas przyjeżdża.</p>
+  <div class="pagehead-media"><img src="img/head-realizacje.jpg" alt="Rabata z kwitnącymi orlikami" width="1600" height="1066" decoding="async" fetchpriority="high"></div>
+  <div class="ph-in">
+    <p class="crumb up" style="--d:0"><a href="index.html">Strona główna</a><span class="sl" aria-hidden="true"></span>Galeria</p>
+    <h1><span class="ln"><span class="ln-i" style="--k:0">Ogród</span></span><span class="ln"><span class="ln-i" style="--k:1"><em>z&nbsp;bliska.</em></span></span></h1>
+    <p class="ph-lead up" style="--d:300">Kwiaty, rośliny i&nbsp;sprzęt na sezon. Kliknij zdjęcie, żeby je powiększyć.</p>
   </div>
 </section>
-<section>
+
+<section class="sec">
   <div class="wrap">
-    <div class="gallery">
-      <div class="tile t-two3 reveal"><img src="img/g1.jpg" alt="TOMILI" loading="lazy" width="1600" height="1066" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g2.jpg" alt="TOMILI" loading="lazy" width="1600" height="1066" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g3.jpg" alt="TOMILI" loading="lazy" width="1524" height="974" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g4.jpg" alt="TOMILI" loading="lazy" width="1600" height="1066" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g5.jpg" alt="TOMILI" loading="lazy" width="1600" height="1066" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g6.jpg" alt="TOMILI" loading="lazy" width="1600" height="1068" decoding="async"></div>
-      <div class="tile t-two3 reveal"><img src="img/g7.jpg" alt="TOMILI" loading="lazy" width="1600" height="1067" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g8.jpg" alt="TOMILI" loading="lazy" width="1600" height="1066" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g9.jpg" alt="TOMILI" loading="lazy" width="1600" height="1066" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/g11.jpg" alt="TOMILI" loading="lazy" width="1600" height="1066" decoding="async"></div>
-      <div class="tile t-two3 reveal"><img src="img/g12.jpg" alt="TOMILI" loading="lazy" width="1542" height="1000" decoding="async"></div>
-      <div class="tile t-third reveal"><img src="img/about.jpg" alt="TOMILI" loading="lazy" width="1600" height="1066" decoding="async"></div>
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow rv">Galeria</p>
+        <h2 class="h2 rv rv-h"><span class="ln"><span class="ln-i" style="--k:0">Rośliny, kwiaty</span></span><span class="ln"><span class="ln-i" style="--k:1"><em>i&nbsp;sprzęt.</em></span></span></h2>
+      </div>
+      <div class="side rv" style="--d:120">
+        <p class="lead">To, po co przyjeżdża się do sklepu ogrodniczego. Szukasz czegoś z&nbsp;tych zdjęć? Daj znać telefonicznie, sprawdzimy, co jest na stanie.</p>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/place/TOMILI/@51.4671884,19.2103248,17z/data=!4m6!3m5!1s0x471a3fef8802860d:0xffffd94359ae5ac!8m2!3d51.4671884!4d19.2103248" target="_blank" rel="noopener">Wizytówka TOMILI w&nbsp;Google<svg class="ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      </div>
+    </div>
+    <div class="masonry">
+      <a class="tile rv-img rv" style="--d:0" href="img/g2.jpg" data-lb="Kwiaty na sezon - Rośliny kwitnące w doniczkach">
+        <img src="img/g2.jpg" alt="Kwiaty na sezon - rośliny kwitnące w doniczkach" width="1600" height="1066" decoding="async">
+        <span class="tile-cap"><h3>Kwiaty na sezon</h3><span>Rośliny kwitnące w&nbsp;doniczkach</span></span>
+      </a><a class="tile rv-img rv" style="--d:110" href="img/g7.jpg" data-lb="Kwiaty balkonowe - Surfinie w wiszących doniczkach">
+        <img src="img/g7.jpg" alt="Kwiaty balkonowe - surfinie w wiszących doniczkach" width="1600" height="1067" decoding="async">
+        <span class="tile-cap"><h3>Kwiaty balkonowe</h3><span>Surfinie w&nbsp;wiszących doniczkach</span></span>
+      </a><a class="tile rv-img rv" style="--d:220" href="img/g8.jpg" data-lb="Wiszące kosze - Kwiaty przy wejściu do domu">
+        <img src="img/g8.jpg" alt="Wiszące kosze - kwiaty przy wejściu do domu" width="1600" height="1066" decoding="async">
+        <span class="tile-cap"><h3>Wiszące kosze</h3><span>Kwiaty przy wejściu do domu</span></span>
+      </a><a class="tile rv-img rv" style="--d:0" href="img/g12.jpg" data-lb="Jaskier - Kwiat w doniczce na parapet">
+        <img src="img/g12.jpg" alt="Jaskier - kwiat w doniczce na parapet" width="1542" height="1000" decoding="async">
+        <span class="tile-cap"><h3>Jaskier</h3><span>Kwiat w&nbsp;doniczce na parapet</span></span>
+      </a><a class="tile rv-img rv" style="--d:110" href="img/g4.jpg" data-lb="Rośliny w doniczkach - Małe rośliny na taras i parapet">
+        <img src="img/g4.jpg" alt="Rośliny w doniczkach - małe rośliny na taras i parapet" width="1600" height="1066" decoding="async">
+        <span class="tile-cap"><h3>Rośliny w&nbsp;doniczkach</h3><span>Małe rośliny na taras i&nbsp;parapet</span></span>
+      </a><a class="tile rv-img rv" style="--d:220" href="img/g6.jpg" data-lb="Wrzosy - Rośliny na jesienne rabaty">
+        <img src="img/g6.jpg" alt="Wrzosy - rośliny na jesienne rabaty" width="1600" height="1068" decoding="async">
+        <span class="tile-cap"><h3>Wrzosy</h3><span>Rośliny na jesienne rabaty</span></span>
+      </a><a class="tile rv-img rv" style="--d:0" href="img/g1.jpg" data-lb="Rozsada - Młode rośliny w multiplatach">
+        <img src="img/g1.jpg" alt="Rozsada - młode rośliny w multiplatach" width="1600" height="1066" decoding="async">
+        <span class="tile-cap"><h3>Rozsada</h3><span>Młode rośliny w&nbsp;multiplatach</span></span>
+      </a><a class="tile rv-img rv" style="--d:110" href="img/about.jpg" data-lb="Krzew w doniczce - Sadzonka gotowa do posadzenia">
+        <img src="img/about.jpg" alt="Krzew w doniczce - sadzonka gotowa do posadzenia" width="1600" height="1066" decoding="async">
+        <span class="tile-cap"><h3>Krzew w&nbsp;doniczce</h3><span>Sadzonka gotowa do posadzenia</span></span>
+      </a><a class="tile rv-img rv" style="--d:220" href="img/g10.jpg" data-lb="Młode iglaki - Sadzonki na żywopłot">
+        <img src="img/g10.jpg" alt="Młode iglaki - sadzonki na żywopłot" width="1600" height="1066" decoding="async">
+        <span class="tile-cap"><h3>Młode iglaki</h3><span>Sadzonki na żywopłot</span></span>
+      </a><a class="tile rv-img rv" style="--d:0" href="img/g11.jpg" data-lb="Cięcie gałęzi - Nożyce do wyższych krzewów">
+        <img src="img/g11.jpg" alt="Cięcie gałęzi - nożyce do wyższych krzewów" width="1600" height="1066" decoding="async">
+        <span class="tile-cap"><h3>Cięcie gałęzi</h3><span>Nożyce do wyższych krzewów</span></span>
+      </a><a class="tile rv-img rv" style="--d:110" href="img/g5.jpg" data-lb="Formowanie krzewów - Nożyce do żywopłotu">
+        <img src="img/g5.jpg" alt="Formowanie krzewów - nożyce do żywopłotu" width="1600" height="1066" decoding="async">
+        <span class="tile-cap"><h3>Formowanie krzewów</h3><span>Nożyce do żywopłotu</span></span>
+      </a><a class="tile rv-img rv" style="--d:220" href="img/g3.jpg" data-lb="Podkaszanie trawnika - Sprzęt do koszenia przy krawędziach">
+        <img src="img/g3.jpg" alt="Podkaszanie trawnika - sprzęt do koszenia przy krawędziach" width="1524" height="974" decoding="async">
+        <span class="tile-cap"><h3>Podkaszanie trawnika</h3><span>Sprzęt do koszenia przy krawędziach</span></span>
+      </a><a class="tile rv-img rv" style="--d:0" href="img/g9.jpg" data-lb="Koszenie dużej działki - Traktorek ogrodowy w pracy">
+        <img src="img/g9.jpg" alt="Koszenie dużej działki - traktorek ogrodowy w pracy" width="1600" height="1066" decoding="async">
+        <span class="tile-cap"><h3>Koszenie dużej działki</h3><span>Traktorek ogrodowy w&nbsp;pracy</span></span>
+      </a>
     </div>
   </div>
 </section>
-<section class="cta">
-  <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">Współpraca</span>
-      <h2>Spodobały Ci się nasze prace?</h2>
-      <p>Powiedz, czego szukasz - sprawdzimy, czy jest na stanie.</p>
+<section class="cta-band dark">
+  <div class="wrap cta-grid">
+    <div>
+      <p class="eyebrow rv">Kontakt</p>
+      <h2 class="h2 rv rv-h"><span class="ln"><span class="ln-i" style="--k:0">Spodobało Ci się</span></span><span class="ln"><span class="ln-i" style="--k:1"><em>coś ze zdjęć?</em></span></span></h2>
+      <p class="lead rv" style="--d:120">Powiedz, czego szukasz, a&nbsp;od razu sprawdzimy, co jest na stanie.</p>
     </div>
-    <div class="cta-actions reveal">
-      <a href="kontakt.html" class="btn btn-light">Zapytaj o towar <span class="arr">→</span></a>
-      <a href="tel:+48531642254" class="btn btn-ghost btn-ghost-cta">+48 531 642 254</a>
+    <div class="cta-side rv" style="--d:180">
+      <span class="lbl"><span class="live" aria-hidden="true"></span>Pn-pt 9:00-17:00, sobota 9:00-13:00</span>
+      <a class="cta-phone" href="tel:+48531642254">+48 531 642 254</a>
+      <div class="cta-row">
+        <a class="btn btn-copper" href="tel:+48531642254"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg>Zadzwoń teraz</a>
+        <a class="btn btn-ghost" href="kontakt.html">Kontakt i&nbsp;dojazd</a>
+      </div>
     </div>
   </div>
 </section>
 </main>
-
-<footer>
+<footer class="site-foot">
   <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="name">TOMILI</div>
-        <p>Rośliny, nasiona, nawozy, narzędzia i sprzęt ogrodowy. Wpadnij na Kościuszki 59 w Zelowie albo zadzwoń wcześniej i zapytaj, czy mamy to, czego szukasz.</p>
+    <div class="foot-top">
+      <div>
+        <p class="foot-claim">Rośliny, nasiona i&nbsp;narzędzia. Kościuszki 59 w&nbsp;Zelowie.</p>
+        <a class="btn btn-copper" href="tel:+48531642254"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg>+48 531 642 254</a>
       </div>
-      <div class="foot-col">
-        <h4>Nawigacja</h4>
-        <a href="oferta.html">Oferta</a>
-        <a href="realizacje.html">Galeria</a>
-        <a href="o-nas.html">O nas</a>
-        <a href="kontakt.html">Kontakt</a>
+      <div>
+        <h4>Strony</h4>
+        <ul><li><a href="index.html">Strona główna</a></li><li><a href="oferta.html">Asortyment</a></li><li><a href="realizacje.html">Galeria</a></li><li><a href="o-nas.html">O&nbsp;nas</a></li><li><a href="kontakt.html">Kontakt</a></li></ul>
       </div>
-      <div class="foot-col">
+      <div>
         <h4>Kontakt</h4>
-        <a href="tel:+48531642254">+48 531 642 254</a>
-        <a href="mailto:gruszowek@gmail.com">gruszowek@gmail.com</a>
-        <p>Tadeusza Kościuszki 59, 97-425 Zelów</p>
-        <a href="https://www.google.com/maps/place/TOMILI/@51.4671884,19.2103248,17z/data=!4m6!3m5!1s0x471a3fef8802860d:0xffffd94359ae5ac!8m2!3d51.4671884!4d19.2103248" target="_blank" rel="noopener">Jak dojechać →</a>
-      <div class="foot-soc">
-        <a class="soc" href="https://www.google.com/maps/place/TOMILI/@51.4671884,19.2103248,17z/data=!4m6!3m5!1s0x471a3fef8802860d:0xffffd94359ae5ac!8m2!3d51.4671884!4d19.2103248" target="_blank" rel="noopener" aria-label="Google - TOMILI"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
+        <ul>
+          <li><a href="tel:+48531642254">+48 531 642 254</a></li>
+          <li><a href="mailto:gruszowek@gmail.com">gruszowek@gmail.com</a></li>
+          <li>Tadeusza Kościuszki 59<br>97-425 Zelów</li>
+          <li><a href="https://www.google.com/maps/place/TOMILI/@51.4671884,19.2103248,17z/data=!4m6!3m5!1s0x471a3fef8802860d:0xffffd94359ae5ac!8m2!3d51.4671884!4d19.2103248" target="_blank" rel="noopener">Jak dojechać</a></li>
+        </ul>
       </div>
+      <div>
+        <h4>Godziny</h4>
+        <ul>
+          <li>Poniedziałek - piątek 9:00-17:00</li>
+          <li>Sobota 9:00-13:00</li>
+          <li>Niedziela nieczynne</li>
+          <li><a class="soc" href="https://www.google.com/maps/place/TOMILI/@51.4671884,19.2103248,17z/data=!4m6!3m5!1s0x471a3fef8802860d:0xffffd94359ae5ac!8m2!3d51.4671884!4d19.2103248" target="_blank" rel="noopener" aria-label="Wizytówka TOMILI w Google"><svg class="g-logo" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2A11.9 11.9 0 0 1 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3a12 12 0 0 1-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>Wizytówka Google</a></li>
+        </ul>
       </div>
     </div>
-    <div class="foot-bot">
-      <span>© 2026 TOMILI</span>
+    <div class="foot-mark" aria-hidden="true"><svg class="wm-foot" viewBox="7 -681 2729 702" aria-hidden="true" focusable="false"><path style="--i:0" d="M187.7 0V-660H321.7V0ZM14 -544.7V-660H495.3V-544.7Z"/><path style="--i:1" d="M816.5 14Q745.9 14 690.7 -8.8Q635.5 -31.6 597.5 -75.3Q559.4 -118.9 539.7 -182.4Q520 -245.9 520 -326.7Q520 -443.7 558.1 -520.4Q596.2 -597.2 664.4 -635.5Q732.5 -673.7 821.4 -673.7Q890.1 -673.7 944.6 -651.7Q999.2 -629.7 1037.7 -586.1Q1076.1 -542.6 1096.5 -478Q1116.9 -413.3 1116.9 -329.1Q1116.9 -246.3 1096.4 -182.1Q1076 -117.9 1036.8 -74.4Q997.7 -30.9 942 -8.4Q886.3 14 816.5 14ZM820.3 -98.2Q874.1 -98.2 909.4 -123.9Q944.6 -149.6 961.8 -200.2Q978.9 -250.7 978.9 -325.3Q978.9 -402.9 960.5 -455.3Q942.1 -507.7 906.4 -535Q870.7 -562.3 817.7 -562.3Q766.3 -562.3 730.7 -535.8Q695.1 -509.4 676.9 -457.9Q658.7 -406.3 658.7 -331.3Q658.7 -273.7 668.9 -229.9Q679.1 -186 699.6 -156.7Q720 -127.4 750.1 -112.8Q780.3 -98.2 820.3 -98.2Z"/><path style="--i:2" d="M1172.8 0V-660H1376.1L1533.7 -154.2H1535.7L1691.2 -660H1884.7V0H1759.5V-525H1757.5L1590.1 0H1465.9L1300 -525.3H1298V0Z"/><path style="--i:3" d="M1953.8 0V-660H2088.8V0Z"/><path style="--i:4" d="M2158.8 0V-660H2292.8V0ZM2187.3 0V-115.3H2560.9V0Z"/><path style="--i:5" d="M2593.8 0V-660H2728.8V0Z"/></svg></div>
+    <div class="foot-bottom">
+      <span>© 2026 TOMILI · sklep ogrodniczy w&nbsp;Zelowie</span>
       <span>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
     </div>
   </div>
 </footer>
-<div class="sticky-call"><a class="sc-call" href="tel:+48531642254"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> Zadzwoń</a><a class="sc-quote" href="kontakt.html">Zadzwoń do sklepu</a></div>
+<div class="sticky-call">
+  <a class="btn btn-copper" href="tel:+48531642254"><svg class="ico" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg>Zadzwoń</a>
+  <a class="btn btn-ghost" href="kontakt.html">Jak dojechać</a>
+</div>
 <div class="demo-wazne" data-do="2026-11-12" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
-
-<script src="assets/main.js"></script>
 </body>
 </html>
